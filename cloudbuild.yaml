@@ -4,11 +4,11 @@ steps:
     args: [
             'build',
             '-t',
-            'us-central1-docker.pkg.dev/pub-demo-cb-ar/python-repo/my-app:${SHORT_SHA}',
+            'europe-west1-docker.pkg.dev/blissful-canyon-417604/Images for cloud-build-image1/quickstart-image:v1',
             '-t',
-            'us-central1-docker.pkg.dev/pub-demo-cb-ar/python-repo/my-app:latest',
+            'europe-west1-docker.pkg.dev/blissful-canyon-417604/Images for cloud-build-image1/quickstart-image:v2',
             '--cache-from',
-            'us-central1-docker.pkg.dev/pub-demo-cb-ar/python-repo/my-app:latest',
+            'us-central1-docker.pkg.dev/blissful-canyon-417604/Images for cloud-build-image1/quickstart-image:v2',
             '.'
           ]
 
